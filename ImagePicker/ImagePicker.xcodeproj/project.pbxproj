@@ -15,6 +15,7 @@
 		C21723EB1CA4E66500F35739 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C21723E91CA4E66500F35739 /* LaunchScreen.storyboard */; };
 		C21723F61CA4E66500F35739 /* ImagePickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C21723F51CA4E66500F35739 /* ImagePickerTests.m */; };
 		C21724011CA4E66500F35739 /* ImagePickerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C21724001CA4E66500F35739 /* ImagePickerUITests.m */; };
+		C21724101CA4E81500F35739 /* ImagePickerManage.m in Sources */ = {isa = PBXBuildFile; fileRef = C217240F1CA4E81500F35739 /* ImagePickerManage.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		C21723FC1CA4E66500F35739 /* ImagePickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImagePickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C21724001CA4E66500F35739 /* ImagePickerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImagePickerUITests.m; sourceTree = "<group>"; };
 		C21724021CA4E66500F35739 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C217240E1CA4E81500F35739 /* ImagePickerManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagePickerManage.h; sourceTree = "<group>"; };
+		C217240F1CA4E81500F35739 /* ImagePickerManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagePickerManage.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				C21723E91CA4E66500F35739 /* LaunchScreen.storyboard */,
 				C21723EC1CA4E66500F35739 /* Info.plist */,
 				C21723DB1CA4E66500F35739 /* Supporting Files */,
+				C217240E1CA4E81500F35739 /* ImagePickerManage.h */,
+				C217240F1CA4E81500F35739 /* ImagePickerManage.m */,
 			);
 			path = ImagePicker;
 			sourceTree = "<group>";
@@ -270,6 +275,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C21724101CA4E81500F35739 /* ImagePickerManage.m in Sources */,
 				C21723E31CA4E66500F35739 /* ViewController.m in Sources */,
 				C21723E01CA4E66500F35739 /* AppDelegate.m in Sources */,
 				C21723DD1CA4E66500F35739 /* main.m in Sources */,

@@ -7,8 +7,9 @@
 //
 
 #import "ViewController.h"
-
+#import "ImagePickerManage.h"
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UIImageView *imageView;
 
 @end
 
@@ -24,4 +25,11 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
+
+    [[[ImagePickerManage alloc] init] showImagePickerControllerWithViewControll:self finishBlock:^(UIImage *image) {
+        self.imageView.image=image;
+        
+    }];
+}
 @end
